@@ -1,5 +1,7 @@
  [![Linux](https://img.shields.io/badge/platform-linux--64-brightgreen)](https://ubuntu.com/download/desktop)  [![Live Dashboard](https://img.shields.io/badge/Live%20-Dashboard-green)](https://cognitive-social-crm-persistent-quokka-ch.eu-gb.mybluemix.net/) [![Twitter Bot](https://img.shields.io/twitter/follow/HealthMessiah?style=social)](https://twitter.com/HealthMessiah)
-# Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard with A Twitter Bot
+# <img src="img/droneaid-logo.png" height="100" alt="DroneAid logo">
+
+DroneAid uses machine learning to detect calls for help on the ground placed by those in need. At the heart of DroneAid is a *Symbol Language* that is used to train a visual recognition model. That model analyzes video from a drone to detect and count specific images. A dashboard can be used to plot those locations on a map and initiate a response.
 ## Team Name: - X Æ A-4
 
 ## Get Started
