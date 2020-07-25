@@ -1,6 +1,20 @@
 [![Twitter Bot](https://img.shields.io/twitter/follow/HealthMessiah?style=social)](https://twitter.com/HealthMessiah)
 # Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard with A Twitter Bot
 ## Team Name: - X Æ A-4
+
+## Contents
+
+1. [Short description](#short-description)
+1. [Youtube video](#youtube)
+1. [PPT](#power-point-presentation-(ppt))
+1. [Live App Link](#live-app-link)
+1. [Flow of the Project](#flow)
+1. [Included components](#included-components)
+1. [Featured technologies](#featured-technologies)
+1. [Steps to run the project](#steps)
+1. [Results](#results)
+1. [Contributors](#contributors)
+
 ## Short description
 
 ### What's the problem?
@@ -204,7 +218,7 @@ Twitter bot replying to sad/depressed tweets with motivational pics/quotes:
 
 
 
-## Contributors: -
+## Contributors
 Jay Jhaveri: https://github.com/JayJhaveri1906
 
 Prem Chhabria: https://github.com/premchhabria
