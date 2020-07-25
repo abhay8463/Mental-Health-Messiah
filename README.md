@@ -1,6 +1,17 @@
-# SBSPS-Challenge-2128-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard
+[![Twitter Bot](https://img.shields.io/twitter/follow/HealthMessiah?style=social)](https://twitter.com/HealthMessiah)
+# Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard with A Twitter Bot
 ## Team Name: - X Æ A-4
+## Short description
+
+### What's the problem?
+
+COVID-19 outbreak was first reported in Wuhan, China, and has spread to more than 50 countries. WHO declared COVID-19 as a Public Health Emergency of International Concern (PHEIC) on 30 January 2020.Currently, people are staying inside their homes for 4 months for self-quarantine purposes. This has led to a sharp increase in mental health problems and suicide rates all across the globe.
+
+### The idea
+
 In this project, our server application subscribes to a **LIVE** Twitter feed with hashtags of "Covid19". Each tweet received will be analyzed for emotional tone and sentiment, and the intent of the tweet will be determined by the Watson Assistant service. All data is stored in a Cloudant database. The resulting analysis is presented in a web-framework (dashboard) as a series of graphs and charts.
+
+In addition to this we have a twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating lines and a hotline for suicide help based on their geo-location supplied by twitter API. 
 
 ## Youtube
 https://youtu.be/6VqK6cLwGZQ
