@@ -2,7 +2,7 @@
 # Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard with A Twitter Bot
 ## Team Name: - X Æ A-4
 
-## Contents
+## Get Started
 
 1. [Short description](#short-description)
 1. [Youtube video](#youtube)
