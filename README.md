@@ -31,7 +31,7 @@ In this project, our server application subscribes to a **LIVE** Twitter feed wi
 In addition to this we have a **Twitter Bot** which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating lines and a hotline for suicide help based on their geo-location supplied by twitter API. 
 
 ## Youtube
-[![Watch the video](https://github.com/abhay8463/Mental-Health-Messiah/blob/master/doc/source/images/thumbnail.jpeg)](https://youtu.be/6VqK6cLwGZQ)
+[![Watch the video](https://github.com/abhay8463/Mental-Health-Messiah/blob/master/doc/source/images/thumbnail.jpeg)](https://www.youtube.com/embed/6VqK6cLwGZQ)
 
 ## Power Point Presentation (ppt): - 
 [PPT](docs/twitterSentiFinal.pptx)
