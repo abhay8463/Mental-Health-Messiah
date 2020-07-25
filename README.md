@@ -198,6 +198,10 @@ as well as Classification of live tweets, Sentiment over time, Emotional Tone ov
 
 ![](doc/source/images/tweetPage.jpeg)
 
+Twitter bot replying to sad/depressed tweets with motivational pics/quotes:
+
+![](doc/source/images/tweet.jpeg)
+
 
 
 ## Contributors: -
