@@ -188,7 +188,7 @@ The server runs on port `3000` and the `client` runs on port `4200`. You can acc
 
 `http://localhost:4200`
 
-## Sample Output
+## Results
 
 You will see informations about Tweets:
 
