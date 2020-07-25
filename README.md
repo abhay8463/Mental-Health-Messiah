@@ -25,7 +25,7 @@ COVID-19 outbreak was first reported in Wuhan, China, and has spread to more tha
 
 In this project, our server application subscribes to a **LIVE** Twitter feed with hashtags of "Covid19". Each tweet received will be analyzed for emotional tone and sentiment, and the intent of the tweet will be determined by the Watson Assistant service. All data is stored in a Cloudant database. The resulting analysis is presented in a web-framework (dashboard) as a series of graphs and charts.
 
-In addition to this we have a twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating lines and a hotline for suicide help based on their geo-location supplied by twitter API. 
+In addition to this we have a **Twitter Bot** which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating lines and a hotline for suicide help based on their geo-location supplied by twitter API. 
 
 ## Youtube
 [![Watch the video](https://github.com/abhay8463/Mental-Health-Messiah/blob/master/doc/source/images/thumbnail.jpeg)](https://youtu.be/6VqK6cLwGZQ)
