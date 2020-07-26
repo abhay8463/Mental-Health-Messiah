@@ -9,7 +9,7 @@ Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the 
 
 1. [Short description](#short-description)
 1. [Youtube video](#youtube)
-1. [Detailed documentation](#Detailed Documentation: -)
+1. [Detailed documentation](#detailed-documentation:--)
 1. [PPT](#power-point-presentation-(ppt))
 1. [Live App Link](#live-app-link)
 1. [Flow of the Project](#flow)
