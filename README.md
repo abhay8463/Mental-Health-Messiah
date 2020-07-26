@@ -9,6 +9,7 @@ Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the 
 
 1. [Short description](#short-description)
 1. [Youtube video](#youtube)
+1. [Detailed documentation](#Detailed Documentation: -)
 1. [PPT](#power-point-presentation-(ppt))
 1. [Live App Link](#live-app-link)
 1. [Flow of the Project](#flow)
@@ -32,6 +33,9 @@ In addition to this we have a **Twitter Bot** which replies to people’s tweet 
 
 ## Youtube
 [![Watch the video](https://github.com/abhay8463/Mental-Health-Messiah/blob/master/doc/source/images/thumbnail.jpeg)](http://www.youtube.com/watch?v=6VqK6cLwGZQ )
+
+## Detailed Documentation: - 
+[PDF](docs/FinalDocumentation.pdf)
 
 ## Power Point Presentation (ppt): - 
 [PPT](docs/twitterSentiFinal.pptx)
