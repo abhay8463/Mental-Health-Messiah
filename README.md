@@ -1,5 +1,5 @@
  [![Linux](https://img.shields.io/badge/platform-linux--64-brightgreen)](https://ubuntu.com/download/desktop)  [![Live Dashboard](https://img.shields.io/badge/Live%20-Dashboard-green)](https://cognitive-social-crm-persistent-quokka-ch.eu-gb.mybluemix.net/) [![Twitter Bot](https://img.shields.io/twitter/follow/HealthMessiah?style=social)](https://twitter.com/HealthMessiah)
-# <img src="doc/source/images/health.png" height="100" alt="DroneAid logo">
+# <img src="doc/source/images/health.png" height="280" alt="DroneAid logo">
 
 Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the tweets of the public from all over the world during the covid19 Pandemic. The resulting analysis is presented in a Live web-framework (dashboard) as a series of graphs and charts and a Twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating pics
 
