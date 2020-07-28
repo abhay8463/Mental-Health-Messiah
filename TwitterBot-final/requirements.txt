@@ -1,0 +1,7 @@
+praw==7.1.0
+wget==3.2
+tweepy==3.8.0
+ibm_watson==4.5.0
+ibm-cloud-sdk-core==1.5.1
+numpy==1.18.1
+tweet-preprocessor==0.6.0
