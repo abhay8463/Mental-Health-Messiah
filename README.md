@@ -212,6 +212,14 @@ The server runs on port `3000` and the `client` runs on port `4200`. You can acc
 
 # Steps to run the twitter Bot
 
+## Note: - Navigate to the TwitterBot-final folder
+
+### 1. Adding the required Keys to keys.py file
+- Twitter Keys: Use the previously created twitter dev acc's keys or [make new one](https://apps.twitter.com/) and use them to fill the consumer_ket, consumer_secret, access_token, access_token_secret fields.
+- Ibm Keys: Create a new tone analyzer service using a new [IBM cloud account](https://www.ibm.com/watson/services/tone-analyzer/) and use these to fill ibm_key, ibm_url fields.
+- Reddit Keys: Create a [reddit api](https://www.reddit.com/prefs/apps/) and use the given keys to fill the C_id, C_secret, User_agent, Uname, Password. Note: User_agent: can be any string, it's a description of ur app,, Uname: username use to login on reddit,, Password: main password of your reddit account, C_id is the first yellow box and C_secret is the second yellow box as shown: -
+![](doc/source/images/redditKeys.png)
+
 ## Results
 
 You will see informations about Tweets:
