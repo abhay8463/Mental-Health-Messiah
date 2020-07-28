@@ -15,7 +15,8 @@ Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the 
 1. [Flow of the Project](#flow)
 1. [Included components](#included-components)
 1. [Featured technologies](#featured-technologies)
-1. [Steps to run the project](#steps)
+1. [Steps to run the Dashboard(UBUNTU-Angular)](#steps-for-dashboard)
+1. [Steps to run the Twitter Bot (Python)](#Steps-to-run-the-twitter-bot)
 1. [Results](#results)
 1. [Contributors](#contributors)
 
@@ -76,7 +77,7 @@ In addition to this we have a **Twitter Bot** which replies to people’s tweet 
 - [Node.js](https://nodejs.org/): An open-source JavaScript run-time environment for executing server-side JavaScript code.
 - [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
 
-# Steps
+# Steps for dashboard
 
 We can deploy the code to IBM Cloud (or run the code locally, there will be one more step to configure the credentials locally.)
 
@@ -208,6 +209,8 @@ $ npm run start
 The server runs on port `3000` and the `client` runs on port `4200`. You can access the UI by accessing the following URL in the browser:
 
 `http://localhost:4200`
+
+# Steps to run the twitter Bot
 
 ## Results
 
