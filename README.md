@@ -1,7 +1,7 @@
  [![Linux](https://img.shields.io/badge/platform-linux--64-brightgreen)](https://ubuntu.com/download/desktop)  [![Live Dashboard](https://img.shields.io/badge/Live%20-Dashboard-green)](https://cognitive-social-crm-persistent-quokka-ch.eu-gb.mybluemix.net/) [![Twitter Bot](https://img.shields.io/twitter/follow/HealthMessiah?style=social)](https://twitter.com/HealthMessiah)
 # <img src="doc/source/images/logo.png"  alt="Mental Health Messiah logo">
 
-Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the tweets of the public from all over the world during the covid19 Pandemic. The resulting analysis is presented in a Live web-framework (dashboard) as a series of graphs and charts and a Twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating pics from Reddit.
+Mental Health Messiah uses various IBM Technologies to analyze sentiment of the tweets of the public from all over the world during the covid19 Pandemic. The resulting analysis is presented in a Live web-framework (dashboard) as a series of graphs and charts and a Twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating pics from Reddit.
 
 ## Team Name: - X Æ A-4
 
@@ -24,7 +24,7 @@ Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the 
 
 ### What's the problem?
 
-COVID-19 outbreak was first reported in Wuhan, China, and has spread to more than 50 countries. WHO declared COVID-19 as a Public Health Emergency of International Concern (PHEIC) on 30 January 2020.Currently, people are staying inside their homes for 4 months for self-quarantine purposes. This has led to a sharp increase in mental health problems and suicide rates all across the globe.
+COVID-19 outbreak was first reported in Wuhan, China, and has spread to more than 50 countries. WHO declared COVID-19 as a Public Health Emergency of International Concern (PHEIC) on 30 January 2020. Currently, people are staying inside their homes for 4 months for self-quarantine purposes. This has led to a sharp increase in mental health problems and suicide rates all across the globe.
 
 ### The idea
 
