@@ -213,7 +213,7 @@ The server runs on port `3000` and the `client` runs on port `4200`. You can acc
 # Steps to run the twitter Bot
 ## What our bot actually does?
 - Our bot replies to original tweets of user using a particular hashtag(eg: #Covid19) which it detects sad using the IBM watson tone analyzer with a motivation pic using the reddit api from the subreddit MotivationalPics.
-- Twitter Handle of the bot: - [profile](https://twitter.com/HealthMessiah}
+- Twitter Handle of the bot: - [profile](https://twitter.com/HealthMessiah)
 
 ## Note: - Navigate to the TwitterBot-final folder.
 ## Note: - Python 3 is used here.
