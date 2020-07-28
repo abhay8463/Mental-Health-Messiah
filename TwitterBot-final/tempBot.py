@@ -77,18 +77,6 @@ while True:
                     print("No tone detected")
             else:
                 print("skipping cause retweet.")
-    time.sleep(120)
+    time.sleep(120) # Sleep is added to avoid the "rate limit exceeded" error of the twitter api.
 
-    # for t in twt:
-    #     if t.text.find("#covid19") != -1:
-    #         title, link, extension = reddit_twitter_bot.findMeme()
-    #         status = "Hey @" + t.user.screen_name + " Our sentimental bot detected your depressed tweet :(\nHere's a motivational quote for you: -\n" + title + "\n" + "https://redd.it/" + link
-    #         imagePath = "img\\output" + extension
-    #         print(t.text)
-    #         print(type(t.id))
-    #         print(type(t.id_str))
-    #         print(t.id)
-    #         # sn = t.user.screen_name
-    #         # m = "@%s " % sn + "Hello,"
-    #         # api.update_status(status=m, in_reply_to_status_id=t.id_str)
-    #         api.update_with_media(imagePath, status, in_reply_to_status_id=t.id)
+   
