@@ -224,12 +224,13 @@ The server runs on port `3000` and the `client` runs on port `4200`. You can acc
 - Reddit Keys: Create a [reddit api](https://www.reddit.com/prefs/apps/) and use the given keys to fill the C_id, C_secret, User_agent, Uname, Password. Note: User_agent: can be any string, it's a description of ur app,, Uname: username use to login on reddit,, Password: main password of your reddit account, C_id is the first yellow box and C_secret is the second yellow box as shown: -
 ![](doc/source/images/redditKeys.png)
 
-### 1. Running the py files: -
+### 2. Running the py files: -
 - Use `pip install -r requirements.txt` to install all the dependecies.
 - run the tempBot.py program to start the bot.
 
 ## Note: - To change the hashtag it follows, change the hashtag on line number 46 in tempBot.py
 ## Note: - To change subreddit from which the reddit bot gives posts, change the name on line number 20 in reddit_twitter_bot.py
+## Note: - To host the bot to run 24/7 we reccomend [python anywhere](https://www.pythonanywhere.com/) (use `pip3` to install and `python3` on it's console to run the files.
 # Results
 
 You will see informations about Tweets:
