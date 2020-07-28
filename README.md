@@ -1,7 +1,7 @@
  [![Linux](https://img.shields.io/badge/platform-linux--64-brightgreen)](https://ubuntu.com/download/desktop)  [![Live Dashboard](https://img.shields.io/badge/Live%20-Dashboard-green)](https://cognitive-social-crm-persistent-quokka-ch.eu-gb.mybluemix.net/) [![Twitter Bot](https://img.shields.io/twitter/follow/HealthMessiah?style=social)](https://twitter.com/HealthMessiah)
 # <img src="doc/source/images/logo.png"  alt="Mental Health Messiah logo">
 
-Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the tweets of the public from all over the world during the covid19 Pandemic. The resulting analysis is presented in a Live web-framework (dashboard) as a series of graphs and charts and a Twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating pics
+Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the tweets of the public from all over the world during the covid19 Pandemic. The resulting analysis is presented in a Live web-framework (dashboard) as a series of graphs and charts and a Twitter bot which replies to people’s tweet which indicates fear, sadness, scared with funny memes/gifs/motivating pics from Reddit.
 
 ## Team Name: - X Æ A-4
 
@@ -16,7 +16,7 @@ Mental Health Messiah uses varoius IBM Technologies to analyze sentiment of the 
 1. [Included components](#included-components)
 1. [Featured technologies](#featured-technologies)
 1. [Steps to run the Dashboard(UBUNTU-Angular)](#steps-for-dashboard)
-1. [Steps to run the Twitter Bot (Python)](#Steps-to-run-the-twitter-bot)
+1. [Steps to run the Twitter Reddit Bot (Python)](#Steps-to-run-the-twitter-bot)
 1. [Results](#results)
 1. [Contributors](#contributors)
 
@@ -211,8 +211,12 @@ The server runs on port `3000` and the `client` runs on port `4200`. You can acc
 `http://localhost:4200`
 
 # Steps to run the twitter Bot
+## What our bot actually does?
+- Our bot replies to original tweets of user using a particular hashtag(eg: #Covid19) which it detects sad using the IBM watson tone analyzer with a motivation pic using the reddit api from the subreddit MotivationalPics.
+- Twitter Handle of the bot: - [profile](https://twitter.com/HealthMessiah}
 
-## Note: - Navigate to the TwitterBot-final folder
+## Note: - Navigate to the TwitterBot-final folder.
+## Note: - Python 3 is used here.
 
 ### 1. Adding the required Keys to keys.py file
 - Twitter Keys: Use the previously created twitter dev acc's keys or [make new one](https://apps.twitter.com/) and use them to fill the consumer_ket, consumer_secret, access_token, access_token_secret fields.
@@ -220,7 +224,13 @@ The server runs on port `3000` and the `client` runs on port `4200`. You can acc
 - Reddit Keys: Create a [reddit api](https://www.reddit.com/prefs/apps/) and use the given keys to fill the C_id, C_secret, User_agent, Uname, Password. Note: User_agent: can be any string, it's a description of ur app,, Uname: username use to login on reddit,, Password: main password of your reddit account, C_id is the first yellow box and C_secret is the second yellow box as shown: -
 ![](doc/source/images/redditKeys.png)
 
-## Results
+### 1. Running the py files: -
+- Use `pip install -r requirements.txt` to install all the dependecies.
+- run the tempBot.py program to start the bot.
+
+## Note: - To change the hashtag it follows, change the hashtag on line number 46 in tempBot.py
+## Note: - To change subreddit from which the reddit bot gives posts, change the name on line number 20 in reddit_twitter_bot.py
+# Results
 
 You will see informations about Tweets:
 
