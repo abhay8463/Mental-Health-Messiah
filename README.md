@@ -61,6 +61,10 @@ In addition to this, we have a **Twitter Bot** which replies to people’s tweet
 6. Tweets and metadata are stored in Cloudant
 7. The dashboard displays charts and graphs as well as the tweets.
 
+## Roadmap
+
+![](doc/source/images/roadmap.png)
+
 ## Included components
 
 - [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/): Watson Assistant is a robust platform that allows developers and non-technical users to collaborate on building conversational AI solution.
