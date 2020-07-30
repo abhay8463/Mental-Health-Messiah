@@ -13,6 +13,7 @@ Mental Health Messiah uses various IBM Technologies to analyze sentiment of the 
 1. [PPT](#power-point-presentation)
 1. [Live App Link](#live-app-link)
 1. [Flow of the Project](#flow)
+1. [Roadmap of the Project](#roadmap)
 1. [Included components](#included-components)
 1. [Featured technologies](#featured-technologies)
 1. [Steps to run the Dashboard (UBUNTU-Angular)](#steps-for-dashboard)
