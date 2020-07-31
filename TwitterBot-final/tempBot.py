@@ -43,18 +43,18 @@ i = 0
 while True:
     i += 1
     print("debugCounter = ", i)
-    twt = api.search("#Covid19", result_type="new", count=1)
+    twt = api.search("#Covid19 -filter:retweets", result_type="new", count=1, tweet_mode='extended')
     for t in twt:
-        print("debug: - ", t.id, prev_id, type(t.id), t.text, t.user.screen_name)
+        print("debug: - ", t.id, prev_id, type(t.id),"\n Full text: ",t.full_text, t.user.screen_name)
         if str(t.id) != str(prev_id):
-            if (not t.retweeted) and ('RT @' not in t.text):
-                print("tweet text: ", t.text)
+            if (not t.retweeted) and ('RT @' not in t.full_text):
+                print("tweet text: ", t.full_text)
                 prev_id = t.id
                 with open('prev_id_temp.txt', 'w') as f:
                     f.write('%s\n' % prev_id)
                 '''Tone Analyzing'''
                 tone_analysis = tone_analyzer.tone(
-                    {'text': t.text},
+                    {'text': t.full_text},
                     content_type='application/json'
                 ).get_result()
                 print("debug\n", tone_analysis)
@@ -62,10 +62,12 @@ while True:
                     tone = tone_analysis['document_tone']['tones'][0]['tone_id']
                     print("Tone detected: - ", tone, "\n\n")
                     if tone.lower() == "sadness":
+                        print("sad tweet found")
                         title, link, extension = reddit_twitter_bot.findMeme()
+                        print("reddit done")
                         status = "Hey @" + t.user.screen_name + " This is a mini project. Please read bio for more info\n Our sentimental bot detected your depressed tweet :(\nHere's a motivational quote for you: -\n" + title + "\n" + "https://redd.it/" + link
                         imagePath = "img\\output" + extension
-                        print("debug: ", t.text)
+                        print("debug: ", t.full_text)
                         print(type(t.id))
                         print(type(t.id_str))
                         print(t.id, " debug ends")
@@ -73,10 +75,9 @@ while True:
                         # m = "@%s " % sn + "Hello,"
                         # api.update_status(status=m, in_reply_to_status_id=t.id_str)
                         api.update_with_media(imagePath, status, in_reply_to_status_id=t.id)
+                        print("replying done")
                 except:
                     print("No tone detected")
             else:
                 print("skipping cause retweet.")
     time.sleep(120) # Sleep is added to avoid the "rate limit exceeded" error of the twitter api.
-
-   
