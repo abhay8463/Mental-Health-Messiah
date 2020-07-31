@@ -3,7 +3,7 @@ import wget
 import time
 import os
 import glob
-import keys
+from keys import reddit_keys
 
 
 def findMeme():
